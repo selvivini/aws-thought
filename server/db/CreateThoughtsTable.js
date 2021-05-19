@@ -4,7 +4,7 @@ const AWS = require("aws-sdk");
 // updates local environmental variables
 AWS.config.update({
   region: "us-east-1",
-  endpoint: "http://localhost:8000"
+//   endpoint: "http://localhost:8000"
 });
 
 const dynamodb = new AWS.DynamoDB({apiVersion: '2012-08-10'});
